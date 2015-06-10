@@ -128,3 +128,37 @@
   .arrow.up   .arr-up  {display: initial;}
   .arrow.down .arr-down{display: initial;}
   .arrow.top  .arr-top {display: initial;}
+
+    .print-only{display: none;}
+  @media print {
+    .print-only{display: initial;}
+    .dont-print{display: none;}
+    .print-data-field{display: block; width: 10cm; height: 10mm;}
+    button, .unranked-line, svg {display: none;}
+    body { font-size: 12pt;  }
+    li {
+      background-color: transparent;
+      border: 1px solid black;
+      margin-bottom: 2mm;
+      height: 15mm;
+      border-radius: 0;
+      clear: both;
+      page-break-inside: avoid;
+    }
+    .mugshot img {
+      width: 15mm;
+      height: 15mm;
+      border-radius:0; 
+    }
+    li:nth-child(13):after {
+      content: none;
+      border-top: none;
+    }
+    .arrow{border:none;}
+    .up{border-left: 0.5mm solid black;}
+
+  .mugshot { width: 15mm;  }  
+  .name {    width: 60mm;  }  
+  .arrow {  width: 15mm;  }  
+
+  }
