@@ -6,7 +6,17 @@ $(document).ready(function() {
         return o;
     }
 
-    var blankCandidateMarkup = "<li>" + "<table>" + "  <tr>" + "    <td class='mugshot'><img src='%(mug)s'></td>" + "    <td class='name'>%(name)s</td>" + "    <td class='arrow up'  >&uArr;</td>" + "    <td class='arrow down'>&dArr;</td>" + "    <td class='arrow top' >⇞</td>" + "  </tr>" + "</table>" + "</li>";
+    var blankCandidateMarkup = "<li>" 
+    + "<table>" 
+    + "  <tr>" 
+    + "    <td class='mugshot'><img src='%(mug)s'></td>" 
+    + "    <td class='name'>%(name)s</td>" 
+    + "    <td class='arrow up'  >&uArr;</td>" 
+    + "    <td class='arrow down'>&dArr;</td>" 
+    + "    <td class='arrow top' >⇞</td>" 
+    + "  </tr>" 
+    + "</table>" 
+    + "</li>";
     candidates = shuffle(candidates);
     for (i in candidates) {
         var person = candidates[i]

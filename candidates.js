@@ -64,5 +64,5 @@ var candidates = [
 	{"name":"Tim Crawshaw", "mug":"mugs/2015-1.jpg"},
 	{"name":"Tim Gibson", "mug":"mugs/320877_10150392055247991_1804070766_n.jpg"},
 	{"name":"Tony Ogden", "mug":"mugs/EOFYL-2012.jpg"},
-	{"name":"Izzie White", "mug":"mugs/headshot4.jpg"}
+	{"name":"Izzie White", "mug":"mugs/headshot2.jpg"}
 ];

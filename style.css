@@ -1,3 +1,8 @@
+  body{
+    max-width: 600px;
+    margin: auto;
+  }
+
   ul {
       padding: 0;
   }
@@ -6,9 +11,9 @@
       background-color: aliceblue;
       margin-bottom: 3px;
       list-style-type: none;
-      height: 10vw;
+      height: 8vh;
       clear: both;
-      border-radius: 5vw;
+      border-radius: 4vh;
   }
   
   li:nth-child(13) {
@@ -29,29 +34,31 @@
   
   .mugshot {
       display: inline-block;
-      width: 10vw;
+      width: 10vh;
       float: left;
   }
   
   .mugshot img {
-      width: 10vw;
-      height: 10vw;
+      width:  8vh;
+      height: 8vh;
       object-fit: cover;
       border-radius: 50%;
   }
   
   .name {
       width: 44vw;
-      padding-left: 2em;
-  }
-  
-  .buttons {
-      display: inline-block;
-      width: 40vw;
   }
   
   .arrow {
       width: 10vw;
       text-align: center;
-      font-size: 200%;
+      font-size: 250%;
   }
+
+button.vote-button {
+  width: 100%;
+  font-size: 400%;
+}
+input[type="email"] {
+  font-size: 140%;
+}
