@@ -6,14 +6,28 @@ $(document).ready(function() {
         return o;
     }
 
+    var arrows=
+       "<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 178.6 178.6'>"
+      +"  <symbol id='a' viewBox='-88 -88 176 176'>"
+      +"    <circle r='88' cx='0' cy='0' fill='white' stroke='none'/>"
+      +"    <path fill='none' stroke='#010101' stroke-miterlimit='10' d='M-.5-75' stroke-linecap='round' stroke-linejoin='round'/>"
+      +"    <polyline fill='none' stroke='#010101' stroke-miterlimit='10' points='-28.1 46.9 0 75 28.1 46.9' stroke-linecap='round' stroke-linejoin='round'/>"
+      +"    <line x1='0' x2='0' y1='75' y2='-75' fill='none' stroke='#010101' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/>"
+      +"  </symbol>"
+      +"  <use class='arr-up'   width='176' height='176' x='-88' y='-88' xlink:href='#a' transform='matrix(1 0 0 -1 89 89)' overflow='visible'/>"
+      +"  <use class='arr-down' width='176' height='176' x='-88' y='-88' xlink:href='#a' transform='matrix(-1 0 0 1 89 89)' overflow='visible'/>"
+      +"  <use class='arr-top'  width='176' height='176' x='-88' y='-88' xlink:href='#a' transform='matrix(1 0 0 -1 89 89)' overflow='visible'/>"
+      +"  <line class='arr-top' x1='61' x2='117' y1='13' y2='13' fill='none' stroke='#010101' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/>"
+      +"</svg>";
+
     var blankCandidateMarkup = "<li>" 
     + "<table>" 
     + "  <tr>" 
     + "    <td class='mugshot'><img src='%(mug)s'></td>" 
     + "    <td class='name'>%(name)s</td>" 
-    + "    <td class='arrow up'  >&uArr;</td>" 
-    + "    <td class='arrow down'>&dArr;</td>" 
-    + "    <td class='arrow top' >⇞</td>" 
+    + "    <td class='arrow up'  >"+arrows+"</td>" 
+    + "    <td class='arrow down'>"+arrows+"</td>" 
+    + "    <td class='arrow top' >"+arrows+"</td>" 
     + "  </tr>" 
     + "</table>" 
     + "</li>";

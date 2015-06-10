@@ -18,11 +18,13 @@
     <h1>Futures Council Election</h1>
     <p>Below are the candidates for the Futures Council. They are in no particular order as they are shuffled to avoid bias introduced by their order.</p>
     <p>Please take your time in making your selection as there is a lot at stake. You can vote as many times as you like, but only your most recent vote will count.</p>
-    <h2>Ballot paper</h2>
+    <h2 class="ballot-paper">Ballot paper</h2>
     <label>E-mail:<br>
         <input type="email" name="user_email" autocomplete="email" required placeholder="Enter your BVN email address"/>
     </label>
     <p>We need your email address to identify you as a unique person. This is how we'll stop multiple votes etc. Be careful to put it in as <code>first_last@bvn.com.au</code> or your vote won't be counted.</p>
+    <p>Order the candidates the way you see fit and press the vote button</p>
+
     <button class="vote-button">vote</button>
 
     <form action="https://docs.google.com/a/notionparallax.co.uk/forms/d/1d8VEjG8dimU2PPa3G6HIQy1kixW72QHM4TQjZJgb0Xc/formResponse" method="POST" id="ss-form" target="_self" onsubmit="">
@@ -35,6 +37,8 @@
     </form>
     
     <ul id="candidate-sortable"></ul>
+
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="sprintf.min.js"></script>
     <script src="Sortable.min.js"></script>

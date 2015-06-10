@@ -1,6 +1,23 @@
-  body{
-    max-width: 600px;
-    margin: auto;
+  @font-face {
+    font-family: 'Blender-book';
+    src: url("http://bvn.camp/static/blender/blenderpro-book-webfont.eot");
+    src: url("http://bvn.camp/static/blender/blenderpro-book-webfont.eot?#iefix") format("embedded-opentype"), 
+         url("http://bvn.camp/static/blender/blenderpro-medium-webfont.woff") format("woff"), 
+         url("http://bvn.camp/static/blender/blenderpro-book-webfont.ttf") format("truetype"), 
+         url("http://bvn.camp/static/blender/blenderpro-book-webfont.svg#blender_probook") format("svg")
+}
+
+  body {
+      font-family: 'Blender-book', blender, sans-serif;
+      max-width: 600px;
+      margin: auto;
+      font-size: 20px;
+  }
+  
+  .ballot-paper{
+    text-align: center;
+    padding-top: 0.5em;
+    border-top: 1px solid;
   }
 
   ul {
@@ -15,22 +32,39 @@
       clear: both;
       border-radius: 4vh;
   }
-  
+  li:first-child .up {
+      visibility: hidden;
+  }
+  li:first-child .top {
+      visibility: hidden;
+  }
+  li:last-child .down {
+      visibility: hidden;
+  }
+
   li:nth-child(13) {
       margin-bottom: 2em;
   }
-  li.unranked-line{
-    background-color: red;
+  
+  li.unranked-line {
+      background-color: red;
   }
-  li:nth-child(13):after{
-    content: "above this line is your council of 13";
-    text-align: center;
-    display: block;
-    height: 1.5em;
-    border-top: 1px solid;
+  
+  li:nth-child(13):after {
+      content: "above this line is your council of 13";
+      text-align: center;
+      display: block;
+      height: 1.5em;
+      border-top: 1px solid;
   }
-  input{width: 100%;}
-  #ss-form{display: none;}
+  
+  input {
+      width: 100%;
+  }
+  
+  #ss-form {
+      display: none;
+  }
   
   .mugshot {
       display: inline-block;
@@ -39,7 +73,7 @@
   }
   
   .mugshot img {
-      width:  8vh;
+      width: 8vh;
       height: 8vh;
       object-fit: cover;
       border-radius: 50%;
@@ -54,11 +88,28 @@
       text-align: center;
       font-size: 250%;
   }
-
-button.vote-button {
-  width: 100%;
-  font-size: 400%;
-}
-input[type="email"] {
-  font-size: 140%;
-}
+  
+  button.vote-button {
+      width: 100%;
+      font-size: 400%;
+  }
+  
+  input[type="email"] {
+      font-size: 140%;
+  }
+  
+  svg {
+      stroke-width: 10;
+  }
+  
+  circle {
+      fill-opacity: 0.5;
+  }
+  
+  use,
+  line.arr-top {
+      display: none;
+  }
+  .arrow.up   .arr-up  {display: initial;}
+  .arrow.down .arr-down{display: initial;}
+  .arrow.top  .arr-top {display: initial;}
