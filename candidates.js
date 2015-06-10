@@ -21,7 +21,7 @@ var candidates = [
 	{"name":"Glenn Irwin", "mug":"mugs/Glenn_Irwin_Headshot01.jpg"},
 	{"name":"Glenn Millar", "mug":"mugs/P_130320_N6_medium.jpg"},
 	{"name":"Graham Bligh", "mug":"mugs/hqdefault.jpg"},
-	{"name":"Hayley Sainsbury", "mug":"mugs/image(6)"},
+	{"name":"Hayley Sainsbury", "mug":"mugs/hs.jpg"},
 	{"name":"Heather McCabe", "mug":"mugs/10409765_10152445486764331_3526425453410628983_n.jpg"},
 	{"name":"Irina Belova", "mug":"mugs/1919166_177278355894_1483591_n.jpg"},
 	{"name":"James Scott", "mug":"mugs/DSC00407-3.jpg"},

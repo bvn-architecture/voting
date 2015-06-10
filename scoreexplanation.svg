@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 335.7 228.7">
+  <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M330.7 199.5h-309V3.5"/>
+  <text transform="translate(100.322 222.523)" font-family="'Blender-Book'" font-size="20">
+    Candidate ordering
+  </text>
+  <g fill="none" stroke="#000" stroke-width=".25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+    <path d="M315.9 199.5v5.2M301.2 199.5v5.2M286.5 199.5v5.2M271.8 199.5v5.2M257 199.5v5.2M242.3 199.5v5.2M227.6 199.5v5.2M212.9 199.5v5.2M198.1 199.5v5.2M183.4 199.5v5.2M168.7 199.5v5.2M154 199.5v5.2M139.2 199.5v5.2M124.5 199.5v5.2M109.8 199.5v5.2M95.1 199.5v5.2M80.3 199.5v5.2M65.6 199.5v5.2M50.9 199.5v5.2M36.2 199.5v5.2"/>
+  </g>
+  <text transform="matrix(0 -1 1 0 15.179 125.152)" font-family="'Blender-Book'" font-size="20">
+    Score
+  </text>
+  <g fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M198.1 86.6l1.7-1.1"/>
+    <path stroke-dasharray="3.908,3.908" d="M203.1 83.5L327.3 5.6"/>
+    <path d="M329 4.6l1.7-1.1"/>
+  </g>
+  <path fill="none" stroke="#000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M21.7 199.5L191 92.1M330.7 47.8H198.1"/>
+  <path fill="none" stroke="#ED1F24" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="4" d="M198.1 198.4V47.8"/>
+</svg>
