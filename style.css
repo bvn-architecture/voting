@@ -1,4 +1,7 @@
-  ul{padding: 0;}
+  ul {
+      padding: 0;
+  }
+  
   li {
       background-color: aliceblue;
       margin-bottom: 3px;
@@ -7,6 +10,22 @@
       clear: both;
       border-radius: 5vw;
   }
+  
+  li:nth-child(13) {
+      margin-bottom: 2em;
+  }
+  li.unranked-line{
+    background-color: red;
+  }
+  li:nth-child(13):after{
+    content: "above this line is your council of 13";
+    text-align: center;
+    display: block;
+    height: 1.5em;
+    border-top: 1px solid;
+  }
+  input{width: 100%;}
+  #ss-form{display: none;}
   
   .mugshot {
       display: inline-block;
