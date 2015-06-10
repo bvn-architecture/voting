@@ -1,0 +1,38 @@
+  ul{padding: 0;}
+  li {
+      background-color: aliceblue;
+      margin-bottom: 3px;
+      list-style-type: none;
+      height: 10vw;
+      clear: both;
+      border-radius: 5vw;
+  }
+  
+  .mugshot {
+      display: inline-block;
+      width: 10vw;
+      float: left;
+  }
+  
+  .mugshot img {
+      width: 10vw;
+      height: 10vw;
+      object-fit: cover;
+      border-radius: 50%;
+  }
+  
+  .name {
+      width: 44vw;
+      padding-left: 2em;
+  }
+  
+  .buttons {
+      display: inline-block;
+      width: 40vw;
+  }
+  
+  .arrow {
+      width: 10vw;
+      text-align: center;
+      font-size: 200%;
+  }

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html manifest="app.cache">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Generated with http://realfavicongenerator.net/ So good, so easy! -->
+  <meta name="theme-color" content="#999999">
+
+  <title>Futures Council Voting</title>
+  <meta name="description" content="">
+
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="canonical" href="">
+ 
+</head>
+
+
+  <body>
+    <h1>Futures Council Election</h1>
+    <p>Below are the candidates for the Futures Council. They are in no particular order as they are shuffled to avoid bias introduced by their order.</p>
+    <p>Please take your time in making your selection as there is a lot at stake. You can vote as many times as you like, but only your most recent vote will count.</p>
+    <h2>Ballot paper</h2>
+    <label>E-mail: 
+    <input type="email" 
+           name="user_email"
+           autocomplete="email" /></label>
+    <p>We need your email address to identify you as a unique person. This is how we'll stop multiple votes etc. Be careful to put it in as <code>first_last@bvn.com.au</code> or your vote won't be counted.</p>
+	  <ul id="candidate-sortable"></ul>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="sprintf.js/dist/sprintf.min.js"></script>
+    <script src="Sortable/Sortable.min.js"></script>
+
+    <script src="candidates.js"></script>
+    <script src="do-things.js"></script>
+  </body>
+
+</html>
