@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Generated with http://realfavicongenerator.net/ So good, so easy! -->
+    <meta name="theme-color" content="#999999">
+    <title>Futures Council Voting</title>
+    <meta name="description" content="">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Futures Council Election</h1>
+    <p>Below are the candidates for the Futures Council. They are in no particular order as they are shuffled to avoid bias introduced by their order.</p>
+    <p>Please take your time in making your selection as there is a lot at stake. You can vote as many times as you like, but only your most recent vote will count.</p>
+    <h2 class="ballot-paper">Ballot paper</h2>
+    <label class="dont-print">E-mail:<br>
+        <input type="email" name="user_email" autocomplete="email" required placeholder="Your BVN email address"/>
+    </label>
+    <p class="print-only print-data-field">E-mail:</p>
+    <p class="print-only print-data-field">Date and time:</p>
+    <p>We need your email address to identify you as a unique person. This is how we'll stop duplicate votes etc. Be careful to put it in as <code>first_last@bvn.com.au</code> or your vote won't be counted.</p>
+    <p class="dont-print">Order the candidates the way you see fit and press the <em>Submit vote</em> button</p>
+    <p class="print-only">Write the order number into the right hand section of each row then hand the completed form to Fiona or Josephine.</p>
+
+    <button class="vote-button">Submit vote</button>
+
+    <form action="https://docs.google.com/a/notionparallax.co.uk/forms/d/1d8VEjG8dimU2PPa3G6HIQy1kixW72QHM4TQjZJgb0Xc/formResponse" method="POST" id="ss-form" target="_self" onsubmit="">
+        <label class="ss-q-item-label" for="entry_1847381329">data</label>
+        <textarea name="entry.1847381329" id="entry_1847381329"></textarea>
+        <input type="hidden" name="draftResponse" value="[,,&quot;-7670901470565161000&quot;]">
+        <input type="hidden" name="pageHistory" value="0">
+        <input type="hidden" name="fbzx" value="-7670901470565161000">
+        <input type="submit" name="submit" value="Submit" id="ss-submit" >
+    </form>
+    
+    <ul id="candidate-sortable"></ul>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="sprintf.min.js"></script>
+    <!-- <script src="Sortable.min.js"></script> -->
+    <script src="candidates.js"></script>
+    <script src="do-things.js"></script>
+</body>
+
+</html>
